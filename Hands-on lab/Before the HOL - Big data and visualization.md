@@ -204,4 +204,23 @@ You have provisioned an Azure Databricks workspace, and now you need to create a
 
 6. Select **Create Cluster**.
 
+### Task 6: Upload the AzureML SDK into your cluster
+
+Now that the cluster has been created and your lab is running, you need to upload AzureML SDK into your lab.
+
+1. Open another browser tab and download the latest version of the AzureML SDK file from [PiPy.org](https://pypi.org/project/azureml-sdk/#files) (https://pypi.org/project/azureml-sdk/#files).
+
+    ![Screenshot showing the Azure ML SDK download page](media/azure-databricks-download-azureml-sdk.png 'Download the SDK')
+
+2. In your browser, switch back to your Azure Databricks tab. Within Azure Databricks, select **Clusters** on the menu, and once the lab is running, select your **lab**.
+
+    ![Screenshot showing selecting Cluster and your running lab](media/azure-databricks-select-your-lab.png 'Select your lab')
+
+3. From the **lab** screen, click on **Libraries** then **Install Now**.
+    ![Screenshot showing selecting Libraries and Install now](media/azure-databricks-install-now.png)
+
+4. Within the Install Library dialog, select **Upload** and **Python Whl**, then drag-and-drop the azureml-sdk file you downloaded, then click **Install**.
+
+    ![Screenshot showing selecting ](media/azure-databricks-upload-azureml-sdk.png)
+
 You should follow all these steps provided _before_ attending the Hands-on lab.
